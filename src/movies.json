@@ -33,5 +33,11 @@
         "year": "2007",
         "genre": "Animação",
         "path": "public/img/ta_dando_onda.jpg"
+    },
+    {
+        "title": "Ratatouille",
+        "year": "2007",
+        "genre": "Animação",
+        "path": "public/img/ratatouille.jpg"
     }
 ]
