@@ -1,10 +1,6 @@
 const json = "src/movies.json";
 const button = document.querySelector("#button_movie");
 
-button.addEventListener("click", ()=>{
-  alert("500");
-})
-
 fetch(json)
   .then(response => {
     if (!response.ok) {
@@ -16,7 +12,7 @@ fetch(json)
     console.log(data);
 
     let arraySelectFilms = [];
-    let maxArray = data.length;
+    let maxArray = 30//;
 
     function sortMovies() {
         if (arraySelectFilms.length == maxArray) {
@@ -31,7 +27,10 @@ fetch(json)
         return sortNumber; // devolver o numero único
     }
 
-    console.log(sortMovies());
+    button.addEventListener("click", ()=>{
+      console.log(sortMovies());
+    })
+    
   })
   .catch(error => {
     console.error('Erro ao ler o arquivo JSON:', error);
