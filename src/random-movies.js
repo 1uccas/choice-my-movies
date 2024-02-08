@@ -1,6 +1,6 @@
-const url = "src/movies.json";
+const json = "src/movies.json";
 
-fetch(url)
+fetch(json)
   .then(response => {
     if (!response.ok) {
       throw new Error('Erro ao carregar o arquivo JSON');
