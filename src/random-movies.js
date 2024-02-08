@@ -33,8 +33,8 @@ fetch(json)
 
       classMovies.innerHTML = "";
       img.src = position.path;
-      classMovies.innerHTML += position.title;
       classMovies.appendChild(img);
+      classMovies.innerHTML += `<label class='label_title'>${position.title}</label>`;
     })
     
   })
