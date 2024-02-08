@@ -7,7 +7,8 @@
     {
         "title": "A hora do Rush",
         "Year": "2002",
-        "Genere": "Comedy"
+        "Genere": "Comedy",
+        "path": "public/img/hora_do_rush.jpg"
     },
     {
         "title": "Missão Impossivel 3",
