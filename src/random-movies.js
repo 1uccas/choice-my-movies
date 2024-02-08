@@ -1,4 +1,9 @@
 const json = "src/movies.json";
+const button = document.querySelector("#button_movie");
+
+button.addEventListener("click", ()=>{
+  alert("500");
+})
 
 fetch(json)
   .then(response => {
