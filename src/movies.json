@@ -27,5 +27,11 @@
         "year": "2004",
         "genre": "Aventura",
         "path": "public/img/homem-aranha-2.jpg"
+    },
+    {
+        "title": "Tá Dando Onda",
+        "year": "2007",
+        "genre": "Animação",
+        "path": "public/img/ta_dando_onda.jpg"
     }
 ]
