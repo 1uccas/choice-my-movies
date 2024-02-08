@@ -1,5 +1,6 @@
 const json = "src/movies.json";
 const button = document.querySelector("#button_movie");
+const classMovies = document.querySelector('.movies');
 
 fetch(json)
   .then(response => {
@@ -28,7 +29,8 @@ fetch(json)
     }
 
     button.addEventListener("click", ()=>{
-      console.log(sortMovies());
+      classMovies.innerHTML = "";
+      classMovies.innerHTML += sortMovies();
     })
     
   })
