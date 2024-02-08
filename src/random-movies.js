@@ -10,10 +10,8 @@ fetch(json)
     return response.json();
   })
   .then(data => {
-    console.log(data);
-
     let arraySelectFilms = [];
-    let maxArray = 30//;
+    let maxArray = (data.length-1) //Obs: o array acrescenta uma posição a mais e a função não consegue detectar;
 
     function sortMovies() {
         if (arraySelectFilms.length == maxArray) {
@@ -29,8 +27,10 @@ fetch(json)
     }
 
     button.addEventListener("click", ()=>{
+      console.log(data[sortMovies()]);
+
       classMovies.innerHTML = "";
-      classMovies.innerHTML += sortMovies();
+      classMovies.innerHTML += data[sortMovies()].title;
     })
     
   })
