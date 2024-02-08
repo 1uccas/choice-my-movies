@@ -39,5 +39,11 @@
         "year": "2007",
         "genre": "Animação",
         "path": "public/img/ratatouille.jpg"
+    },
+    {
+        "title": "A hora do Rush 2",
+        "year": "2001",
+        "genre": "Comédia",
+        "path": "public/img/hora_do_rush_2.jpg"
     }
 ]
