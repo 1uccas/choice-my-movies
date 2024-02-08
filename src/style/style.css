@@ -1,4 +1,4 @@
-main, header{
+main{
     color: white;
     display: flex;
     flex-direction: column;
@@ -21,12 +21,13 @@ main, header{
 
 .div-header{
     color: black;
-    background-color: white;
-    padding: 10px;
+    background-color: gray;
+    padding: 5px;
     font-size: 25px;
 }
 
 .div-header img{
+    text-align: left;
     height: 50px;
     width: 50px;
 }
