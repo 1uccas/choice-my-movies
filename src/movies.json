@@ -45,5 +45,11 @@
         "year": "2001",
         "genre": "Comédia",
         "path": "public/img/hora_do_rush_2.jpg"
+    },
+    {
+        "title": "Missão Quase Impossivel",
+        "year": "2010",
+        "genre": ["Ação", "Comédia"],
+        "path": "public/img/missao_quase_impossivel.jpg"
     }
 ]
