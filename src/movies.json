@@ -51,5 +51,11 @@
         "year": "2010",
         "genre": ["Ação", "Comédia"],
         "path": "public/img/missao_quase_impossivel.jpg"
+    },
+    {
+        "title": "Alvin e os Esquilos 2",
+        "year": "2009",
+        "genre": "Animação",
+        "path": "public/img/alvin_e_os_esquilos_2.jpg"
     }
 ]
