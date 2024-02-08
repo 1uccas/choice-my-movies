@@ -15,19 +15,19 @@ fetch(json)
   .then(data => {
     console.log(data);
 
-    let selectFilms = [];
-    let maxArray = 50//data.length;
+    let arraySelectFilms = [];
+    let maxArray = data.length;
 
     function sortMovies() {
-        if (selectFilms.length == maxArray) {
-            if (confirm('You have already exceeded the limit! Do you want to start over?')) selectFilms = [];
+        if (arraySelectFilms.length == maxArray) {
+            if (confirm('You have already exceeded the limit! Do you want to start over?')) arraySelectFilms = [];
             else return;
         }
         let sortNumber = Math.ceil(Math.random() * maxArray); // Escolher um numero ao acaso
-        while (selectFilms.indexOf(sortNumber) >= 0) {  // Enquanto o numero já existir, escolher outro
+        while (arraySelectFilms.indexOf(sortNumber) >= 0) {  // Enquanto o numero já existir, escolher outro
           sortNumber = Math.ceil(Math.random() * maxArray);
         }
-        selectFilms.push(sortNumber); // adicionar este numero à array de numeros sorteados para futura referência
+        arraySelectFilms.push(sortNumber); // adicionar este numero à array de numeros sorteados para futura referência
         return sortNumber; // devolver o numero único
     }
 
