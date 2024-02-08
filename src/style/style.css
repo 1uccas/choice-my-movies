@@ -15,3 +15,8 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+#button_movie{
+    text-align: center;
+    margin: 25px 50px 25px 50px;
+}
