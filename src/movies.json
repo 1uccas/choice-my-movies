@@ -12,6 +12,7 @@
     {
         "title": "Missão Impossivel 3",
         "Year": "2003",
-        "Genere": "Action"
+        "Genere": "Action",
+        "path": "public/img/mission_impossible_3.jpg"
     }
 ]
