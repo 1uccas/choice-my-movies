@@ -28,9 +28,8 @@ fetch(json)
     }
 
     button.addEventListener("click", ()=>{
-      console.log(data[sortMovies()]);
-
       const position = data[sortMovies()];
+      console.log(position);
 
       classMovies.innerHTML = "";
       img.src = position.path;
