@@ -1,13 +1,11 @@
 main, header{
     color: white;
-}
-
-body{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 
 .movies{
     display: inline-flex;
@@ -19,4 +17,8 @@ body{
 #button_movie{
     text-align: center;
     margin: 25px 50px 25px 50px;
+}
+
+.div-header{
+    background-color: white;
 }
