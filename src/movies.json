@@ -1,19 +1,25 @@
 [
     {
         "title": " ",
-        "Year": " ",
-        "Genere": " "
+        "year": " ",
+        "genre": " "
     },
     {
         "title": "A hora do Rush",
-        "Year": "2002",
-        "Genere": "Comedy",
+        "year": "2002",
+        "genre": "Comedy",
         "path": "public/img/hora_do_rush.jpg"
     },
     {
         "title": "Missão Impossivel 3",
-        "Year": "2003",
-        "Genere": "Action",
+        "year": "2003",
+        "genre": "Action",
         "path": "public/img/mission_impossible_3.jpg"
+    },
+    {
+        "title": "Toy Story",
+        "year": "1995",
+        "genre": "Animation",
+        "path": "public/img/toy_story.jpg"
     }
 ]
