@@ -21,5 +21,11 @@
         "year": "1995",
         "genre": "Animation",
         "path": "public/img/toy_story.jpg"
+    },
+    {
+        "title": "Homem-Aranha 2",
+        "year": "2004",
+        "genre": "Aventura",
+        "path": "public/img/homem-aranha-2.jpg"
     }
 ]
