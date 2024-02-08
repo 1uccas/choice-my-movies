@@ -20,5 +20,13 @@ main, header{
 }
 
 .div-header{
+    color: black;
     background-color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.div-header img{
+    height: 50px;
+    width: 50px;
 }
