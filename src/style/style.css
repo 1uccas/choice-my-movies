@@ -16,3 +16,7 @@ main{
     text-align: center;
     margin: 60px 50px 25px 50px;
 }
+
+.movies img{
+    border-radius: 7px;
+}
