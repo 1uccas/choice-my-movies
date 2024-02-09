@@ -5,8 +5,6 @@ main{
     align-items: center;
     justify-content: center;
 }
-
-
 .movies{
     display: inline-flex;
     flex-direction: column;
@@ -17,17 +15,4 @@ main{
 #button_movie{
     text-align: center;
     margin: 25px 50px 25px 50px;
-}
-
-.div-header{
-    color: black;
-    background-color: gray;
-    padding: 5px;
-    font-size: 25px;
-}
-
-.div-header img{
-    text-align: left;
-    height: 50px;
-    width: 50px;
 }
