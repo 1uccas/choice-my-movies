@@ -26,3 +26,17 @@ main{
     font-size: 25px;
     font-weight: bold;
 }
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    #button_movie{
+        margin: 400px 150px 25px 150px;
+        width: 400px;
+        height: auto;
+        font-size: 25px;
+    }
+    .movies img{
+        border-radius: 7px;
+        height: 700px;
+        width: 500px;
+        margin-left: 100px;
+    }
+}
