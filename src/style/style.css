@@ -20,3 +20,9 @@ main{
 .movies img{
     border-radius: 7px;
 }
+
+.movies label{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
