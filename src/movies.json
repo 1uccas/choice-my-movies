@@ -76,5 +76,11 @@
         "year": "1999",
         "genre": ["Ação", "Ficção-Cientifica"],
         "path": "public/img/matrix.jpg"
+    },
+    {
+        "title": "O espetacular Homem-Aranha",
+        "year": "2012",
+        "genre": ["Ação", "Aventura"],
+        "path": "public/img/o_espetacular_homem_aranha.jpg"
     }
 ]
