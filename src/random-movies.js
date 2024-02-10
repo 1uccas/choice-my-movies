@@ -45,11 +45,11 @@ fetch(json)
         }
     });
 
-      console.log(`Este é -> ${position.title}`);
+      //console.log(`Este é -> ${position.title}`);
     })
     
     data.forEach(element => {
-      console.log(element.title)
+      //console.log(element.title)
 
       const divFilms = document.createElement("div");
       divFilms.setAttribute('class', "classMovie");
