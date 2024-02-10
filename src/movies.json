@@ -70,5 +70,11 @@
         "year": "2010",
         "genre": "Drama",
         "path": "public/img/a_rede_social.jpg"
+    },
+    {
+        "title": "Matrix",
+        "year": "1999",
+        "genre": ["Ação", "Ficção-Cientifica"],
+        "path": "public/img/matrix.jpg"
     }
 ]
