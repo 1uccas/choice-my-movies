@@ -58,5 +58,11 @@
         "year": "1984",
         "genre": ["Ação", "Ficção-Cientifica"],
         "path": "public/img/blade-runner.jpg"
+    },
+    {
+        "title": "Bob Esponja - O filme",
+        "year": "2004",
+        "genre": "Animação",
+        "path": "public/img/bob_esponja_o_filme.jpg"
     }
 ]
