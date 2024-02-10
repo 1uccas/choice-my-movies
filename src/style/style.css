@@ -1,6 +1,6 @@
 *{
-    font-family: fantasy;
-    font-weight: 10;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
 }
 main{
     color: rgb(224, 220, 220);
@@ -18,9 +18,19 @@ main{
     width: 180px;
     height: 300px;
 }
-.classMovie img:hover{
-    transform: scale(1.1);
-    transition-duration: 0.4s;
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+.found{
+    animation: scaleAnimation 5s ease;
 }
 #div_films{
     display: grid;
