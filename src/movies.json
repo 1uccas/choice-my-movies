@@ -52,5 +52,11 @@
         "year": "2009",
         "genre": "Animação",
         "path": "public/img/alvin_e_os_esquilos_2.jpg"
+    },
+    {
+        "title": "Blade Runner - Caçador de Androides",
+        "year": "1984",
+        "genre": ["Ação", "Ficção-Cientifica"],
+        "path": "public/img/blade-runner.jpg"
     }
 ]
