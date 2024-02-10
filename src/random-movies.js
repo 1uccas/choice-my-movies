@@ -35,6 +35,20 @@ fetch(json)
       console.log(position);
     })
     
+    data.forEach(element => {
+      console.log(element.title)
+
+      const divFilms = document.createElement("div");
+      divFilms.setAttribute('class', "classMovie");
+
+      img.src = element.path;
+      divFilms.appendChild(img);
+      divFilms.innerHTML += `<label class='label_title'>${element.title}</label>`;
+      classMovies.appendChild(divFilms);
+    });
+
+    
+    
   })
   .catch(error => {
     console.error('Erro ao ler o arquivo JSON:', error);
