@@ -82,5 +82,11 @@
         "year": "2012",
         "genre": ["Ação", "Aventura"],
         "path": "public/img/o_espetacular_homem_aranha.jpg"
+    },
+    {
+        "title": "Megamente",
+        "year": "2010",
+        "genre": "Animação",
+        "path": "public/img/megamente.jpg"
     }
 ]
