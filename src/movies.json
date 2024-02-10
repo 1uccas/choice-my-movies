@@ -64,5 +64,11 @@
         "year": "2004",
         "genre": "Animação",
         "path": "public/img/bob_esponja_o_filme.jpg"
+    },
+    {
+        "title": "A rede Social",
+        "year": "2010",
+        "genre": "Drama",
+        "path": "public/img/a_rede_social.jpg"
     }
 ]
