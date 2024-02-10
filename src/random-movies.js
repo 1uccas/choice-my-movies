@@ -32,7 +32,20 @@ fetch(json)
 
     button.addEventListener("click", ()=>{
       const position = data[sortMovies()];
-      console.log(position);
+      const selector = document.querySelectorAll(".classMovie");
+
+      selector.forEach(element => {
+          const title = element.textContent.trim();
+          if (title === position.title) {
+              element.classList.add('found'); 
+              element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              setInterval(()=>{
+                element.classList.remove('found');
+              }, 5000);
+          }
+      });
+
+      console.log(`Este é -> ${position.title}`);
     })
     
     data.forEach(element => {
